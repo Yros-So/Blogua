@@ -88,7 +88,7 @@ const ArticleDetailPage = () => {
                         The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                     </p>
                 </div>
-                <CommentsContainers className='mt-10'/>
+                <CommentsContainers className='mt-10' logginedUserId="a" />
             </article>
             <SuggestedPosts header='Latest Article' 
                 posts={postData} 
